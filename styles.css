@@ -1,0 +1,66 @@
+/* Estilos generales */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  header {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  h1 {
+    color: #333;
+  }
+  
+  /* Estilos de noticias */
+  .news-item {
+    margin-bottom: 30px;
+  }
+  
+  .news-item img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .news-text-bold {
+    font-weight: bold;
+  }
+  
+  /* Estilos de productos */
+  .products {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .product {
+    width: calc(33.33% - 20px);
+    margin-bottom: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    text-align: center;
+  }
+  
+  /* Botón Comprar Productos */
+  .buy-button {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  /* Estilos de adaptabilidad */
+  @media screen and (max-width: 768px) {
+    .products
+  
